@@ -1,0 +1,37 @@
+.btn-container{
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    margin: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #1b1b32;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.993);
+}
+
+.btn-pushed{
+    animation: pressed 0.2s;
+}
+ 
+@keyframes pressed{
+    0%{
+        transform: translate(-2px, 2px);
+        box-shadow: none;
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+.operador{
+    background-color: #17a104;
+    color: white;
+    border: solid 1px white;
+}
