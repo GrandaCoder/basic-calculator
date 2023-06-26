@@ -12,4 +12,5 @@
     color: white;
     padding: 11px 30px 11px 11px;
     border: solid 1px white;
+    overflow: auto;
 }
